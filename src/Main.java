@@ -95,5 +95,13 @@ public class Main {
         System.out.println(loops.isPalindrome("AAADAA"));
         System.out.println(loops.isPalindrome("BaaBaaaB"));
 
+        System.out.println();
+        loops.multiPrint("hello", 4);
+        loops.multiPrint("beetlejuice", 3);
+        loops.multiPrint("hi there", 2);
+        loops.multiPrint("boop!", 1);
+        loops.multiPrint("dance party", 0);
+        loops.multiPrint("anything", -4);
+
     }
 }

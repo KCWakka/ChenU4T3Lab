@@ -130,6 +130,16 @@ public class StringLoops {
             return false;
         }
     }
-
+    public void multiPrint(String toPrint, int num) {
+        /* to be implemented */
+        System.out.print("[");
+        for (int i = 0; i <= num; i++) {
+            System.out.print(toPrint);
+            if (i < num) {
+                System.out.print(" ");
+            }
+        }
+        System.out.println("]");
+    }
 }
 
